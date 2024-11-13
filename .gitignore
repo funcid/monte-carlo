@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings
+
+# Project specific
+images/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Исключаем все PDF файлы, кроме итогового отчета
+*.pdf
+!monte_carlo_report.pdf
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db 
